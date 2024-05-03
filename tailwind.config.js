@@ -12,6 +12,9 @@ export default {
         montserrat: ["Montserrat"],
         oswald: ["Oswald"],
       },
+      backgroundImage: {
+        "hero-image": "url('/src/assets/images/hero.png')",
+      },
     },
   },
   plugins: [],

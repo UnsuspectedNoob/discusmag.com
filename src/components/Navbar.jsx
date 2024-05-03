@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="overflow-hidden">
       {/* The Logo and Menu Button */}
-      <div className="relative z-10 flex items-center justify-between px-8 py-12">
+      <div className="relative z-10 flex items-center justify-between px-8 pt-12 pb-6">
         <Link to="/" onClick={() => setNavOpen(false)}>
           <img src={logo} alt="logo" className="w-36" />
         </Link>
