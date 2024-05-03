@@ -1,5 +1,5 @@
 import React from "react";
-import { hero } from "../assets/images";
+import Timer from "../components/Timer";
 
 function MainPage() {
   return (
@@ -19,25 +19,16 @@ function MainPage() {
         </h2>
       </div>
 
-      <div>
-        <h3>Invitation is open until 31st of May</h3>
+      <div className="flex flex-col items-center px-[18px] mt-10 gap-y-4 mb-10">
+        <h3 className="font-montserrat font-semibold text-xl uppercase text-center ">
+          Invitation is open <br /> until 31st of May
+        </h3>
 
-        <div>
-          <div>
-            <div>20</div>
-            <p>Days</p>
-          </div>
-          <div>
-            <div>30</div>
-            <p>minutes</p>
-          </div>
-          <div>
-            <div>50</div>
-            <p>seconds</p>
-          </div>
-        </div>
+        <Timer />
 
-        <button>Join the community</button>
+        <button className="bg-[#1a1a1a] text-white text-nowrap text-center uppercase py-4 px-14 font-montserrat font-bold text-xl w-full max-w-3xl">
+          Join the community
+        </button>
       </div>
     </div>
   );

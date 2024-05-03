@@ -11,6 +11,7 @@ export default {
         inter: ["Inter"],
         montserrat: ["Montserrat"],
         oswald: ["Oswald"],
+        digital: ["Digital"],
       },
       backgroundImage: {
         "hero-image": "url('/src/assets/images/hero.png')",
