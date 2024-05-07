@@ -38,7 +38,12 @@ function Timer() {
     <div className=" grid grid-cols-3 gap-x-4">
       <TimerComponent name={"DAY"} value={time.days} key={"Day"} />
       <TimerComponent name={"HOUR"} value={time.hours} key={"Hour"} />
-      <TimerComponent name={"MINUTE"} value={time.minutes} key={"Minute"} />
+      <TimerComponent
+        name={"MINUTE"}
+        value={time.minutes}
+        key={"Minute"}
+        seconds={time.seconds}
+      />
     </div>
   );
 }
