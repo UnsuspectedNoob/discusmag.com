@@ -8,12 +8,12 @@ function About() {
   return (
     <div className="px-[22px]">
       <div>
-        <img src={logo} alt="logo" className="w-72 mx-auto pb-12 font" />
+        <img src={logo} alt="logo" className="font mx-auto w-72 pb-12" />
       </div>
 
       <BlackLine />
 
-      <div className="font-montserrat text-lg leading-[1] font-light flex flex-col gap-y-3 mt-5 mb-3">
+      <div className="mb-3 mt-5 flex flex-col gap-y-3 font-montserrat text-lg font-light leading-[1]">
         <p>
           DISCUS is a Magazine, Full Service Entertainment Company and all
           inclusive management agency founded by{" "}
@@ -38,7 +38,7 @@ function About() {
 
       <BlackLine />
 
-      <div className="flex flex-col gap-y-6 mt-5 pb-7">
+      <div className="mt-5 flex flex-col gap-y-6 pb-7">
         {people.map((person) => (
           <Person person={person} key={person.name} />
         ))}

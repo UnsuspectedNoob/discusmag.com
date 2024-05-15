@@ -3,7 +3,7 @@ import React from "react";
 function TimerComponent({ value, name, seconds }) {
   return (
     <div className=" flex flex-col items-center">
-      <div className="relative h-24 w-28 bg-[#1a1a1a] p-6 text-center font-digital text-4xl text-white">
+      <div className="bg-greyish-black relative h-24 w-28 p-6 text-center font-digital text-4xl text-white">
         {value}
 
         {!seconds ? (

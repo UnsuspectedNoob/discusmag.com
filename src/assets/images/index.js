@@ -1,3 +1,4 @@
+import ally from "./ally.png";
 import athlete from "./cta1.png";
 import giwa from "./cta2.png";
 import dotuncam from "./gridImg1.png";
@@ -24,6 +25,7 @@ import grid05 from "./5thgridmobile.png";
 
 export {
   menuOpen,
+  ally,
   athlete,
   menuClose,
   giwa,

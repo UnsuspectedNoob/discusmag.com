@@ -1,7 +1,7 @@
 import React from "react";
 
 function BlackLine() {
-  return <div className="border border-[#1a1a1a] w-full" />;
+  return <div className={`w-full border border-greyish-black`} />;
 }
 
 export default BlackLine;

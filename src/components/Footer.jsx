@@ -11,7 +11,7 @@ import { links } from "../constants";
 
 function Footer() {
   return (
-    <div className="bg-[#1a1a1a] pt-16 pb-8">
+    <div className="bg-greyish-black pb-8 pt-16">
       <div className="flex flex-col items-center gap-y-16">
         <div className="w-40">
           <img src={logoAlt} alt="logo" className="w-full" />
@@ -21,7 +21,7 @@ function Footer() {
             <a
               href="#"
               key={link}
-              className={`text-[20px] text-white font-oswald uppercase ${
+              className={`font-oswald text-[20px] uppercase text-white ${
                 index % 2 == 1 ? "place-self-end" : ""
               }`}
             >
@@ -36,7 +36,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-center text-[#d9d9d9] uppercase font-montserrat font-semibold tracking-[2px] text-xs mt-16">
+      <p className="mt-16 text-center font-montserrat text-xs font-semibold uppercase tracking-[2px] text-[#d9d9d9]">
         &copy; Discus 2024 all rights reserved
       </p>
     </div>

@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* inter-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/inter-v13-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* inter-regular - latin */
 @font-face {
   font-display: swap;
@@ -85,6 +94,42 @@
   src: url("./assets/fonts/montserrat-v26-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+/* digital-numbers */
+@font-face {
+  font-display: swap;
+  font-family: "Digital";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/digital-7.ttf") format("truetype");
+}
+
+/* oswald-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/oswald-v53-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* oswald-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/oswald-v53-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* oswald-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/oswald-v53-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 /* oswald-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -92,12 +137,4 @@
   font-style: normal;
   font-weight: 400;
   src: url("./assets/fonts/oswald-v53-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Digital";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./assets/fonts/digital-7.ttf") format("truetype");
 }
