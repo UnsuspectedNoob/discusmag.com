@@ -21,7 +21,7 @@ function MainPage() {
 
       <div className="relative mb-10 mt-10 flex flex-col items-center gap-y-4 px-[18px]">
         <h3 className="text-center font-montserrat text-xl font-semibold uppercase ">
-          Invitation is open <br /> until 30th of June
+          Invitation is open <br /> until 6th of July
         </h3>
 
         <Timer />
