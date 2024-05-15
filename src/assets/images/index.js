@@ -16,6 +16,11 @@ import whatsapp from "./whatsapp.png";
 import x from "./X.png";
 import menuOpen from "./Menu.svg";
 import menuClose from "./Close_square.svg";
+import grid01 from "./1stgridmobile.png";
+import grid02 from "./2ndgridmobile.png";
+import grid03 from "./3rdgridmobile.png";
+import grid04 from "./4thgridmobile.png";
+import grid05 from "./5thgridmobile.png";
 
 export {
   menuOpen,
@@ -36,4 +41,9 @@ export {
   pinterst,
   whatsapp,
   x,
+  grid01,
+  grid02,
+  grid03,
+  grid04,
+  grid05,
 };
