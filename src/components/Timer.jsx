@@ -10,7 +10,7 @@ function Timer() {
   });
 
   useEffect(() => {
-    const countdownDate = new Date("May 31, 2024 00:00:00").getTime();
+    const countdownDate = new Date("June 30, 2024 00:00:00").getTime();
 
     const intervalId = setInterval(() => {
       const now = new Date().getTime();
